@@ -1,0 +1,109 @@
+/*
+===========================================================
+   Western Sydney University
+
+   Student Name:   Wai Chan
+     Student ID:   2053 8079
+        Contact:   20538079@student.westernsydney.edu.au  
+        Subject:   300693 Web Technologies
+     Assignment:   1 - Basic Website Construction
+        Due Dte:   3rd Sept 2021
+
+   © 2021 Wai Chan All Rights Reserved
+=========================================================== 
+*/
+
+/* body {
+	background-color: rgb(255, 0, 247);
+} */
+#menuMobile {
+	height: 100vh;
+	background-color: rgb(161, 181, 174);
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 5000;
+	touch-action: none;
+	-ms-touch-action: none;
+	/* opacity: 0.5; */
+}
+#greyOut {
+	display: none;
+	position: fixed;
+	height: 100vh;
+	width:100vw;
+	z-index: 9000;
+	background-color: black;
+	opacity: 0.8;
+	top: 0;
+	-webkit-box-shadow: 5px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    5px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         5px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#greyOut a span {
+	font-size: 40px;
+	float:right;
+	margin: 10px;
+	color: white;
+}
+#mainWrap {
+	position: relative;
+	max-width: auto;
+	min-width: auto;
+	/* background-color: rgb(228, 216, 216); */
+	z-index: 7000;
+}
+#navBarWrap {
+	max-width: auto;
+	height: 60px;
+	/* opacity: 0.5; */
+}
+#navBarLogo img {
+	border-radius: 0px;
+	width: 60px;
+	height: 60px;
+}
+#navBarLogo li {
+	float: left;
+	padding: 0 6px 0 0;
+}
+#navBarLogo li:nth-child(2) a {
+	font-size: 30px;
+	line-height: 56px;
+}
+#navBarPage {
+	display: none;			/*navBarDesktop.js set display to inline-block*/
+	position: fixed;
+	right: 0;
+}
+#navBarPage li {
+	float: none;
+}
+#navBarPage ul li a {
+	/* color:rgb(166, 255, 0); */
+	color:rgb(59, 60, 57);
+	float: right;
+	height: auto;
+	padding-top: 15px;
+}
+#navBarIcon li a {
+	padding: 6px 15px;
+	height: 48px;
+}
+#navBarIcon #setting {
+	display:none;
+}
+#navBarIcon #menuBtn {
+	display:block;
+	touch-action: none;
+	-ms-touch-action: none;
+}
+#navBarIcon #menuBtn .material-icons {
+	font-size: 35px;
+}
+#mainWrap footer {
+	display: none;
+	line-height: 25px;
+	font-size: 10px;
+}

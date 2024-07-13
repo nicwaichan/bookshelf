@@ -1,0 +1,141 @@
+/*
+===========================================================
+   Western Sydney University
+
+   Student Name:   Wai Chan
+     Student ID:   2053 8079
+        Contact:   20538079@student.westernsydney.edu.au  
+        Subject:   300693 Web Technologies
+     Assignment:   1 - Basic Website Construction
+        Due Dte:   3rd Sept 2021
+
+   © 2021 Wai Chan All Rights Reserved
+=========================================================== 
+*/
+
+#displayRecord {
+	position: relative;
+	max-width: 1920px;
+	min-width: 1200px;
+	height: 220px;
+ 	background-color: rgba(167, 157, 160, 0.338);
+	margin-bottom: 20px;
+}
+#displayRecord:hover {
+	transition-duration: 0.4s;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+}
+#bookImg {
+	float: left;
+	height: inherit;
+	width: 180px;
+	overflow: hidden;
+}
+#bookImg img {
+	height: inherit;
+	width: 180px;
+	overflow: hidden;
+}
+#bookInfo {
+	position: absolute;
+	left: 180px;
+	height: inherit;
+	width: calc(100% - 430px); 
+	/* background-color: rgb(22, 140, 204); */
+}
+#bookInfo h1 {
+	color:rgb(52, 50, 50);
+	margin: 0;
+	padding: 20px;
+}
+#bookInfo hr {
+	border: 1px dashed rgb(169, 165, 165);;
+}
+#bookInfo h2 {
+	position: absolute;
+	font-weight: lighter;
+	bottom: 0;
+	right: 15px;
+	color:rgb(116, 109, 109);
+}
+#rightBox {
+	width: 250px;
+	float: right;
+	height: inherit;
+	background-color: rgb(211, 202, 211);
+	position: absolute;
+	text-align: center;
+	top: 0;
+	right: 0;
+}
+#rightBox p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	color:rgb(18, 145, 187);
+}
+#rightBox span {
+	font-size: 35px;
+	font-weight: bolder;
+	color:rgb(40, 41, 41);
+}
+#rightBox .material-icons {
+	color: rgb(255, 140, 0);
+}
+#rightBox button {
+	padding: 15px;
+	position: absolute;
+	bottom: 20px;
+	right: 33px;
+	background-color: rgb(211, 202, 211);
+	color: #e87fca;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	border: 3px solid #e87fca;
+	border-radius: 10px;
+}
+#rightBox button:hover {
+	transition-duration: 0.5s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #e96ac5;
+	color: white;
+}
+#rightBox button a {
+	text-decoration: none;
+	color: inherit;
+}
+.rating {
+	width: 120px;
+	height: 24px;
+	position: relative;
+	top: 6px;
+	left: 60px;
+  }
+  .rating progress.rating-bg {
+	-webkit-appearance: none;
+	-moz-appearence: none;
+	appearance: none;
+	border: none;
+	display: inline-block;
+	height: 24px;
+	width: 100%;
+	color: orange;
+  }
+  .rating progress.rating-bg::-webkit-progress-value {
+	background-color: orange;
+  }
+  .rating progress.rating-bg::-moz-progress-bar {
+	background-color:orange;
+  }
+  .rating svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+  

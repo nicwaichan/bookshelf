@@ -1,0 +1,93 @@
+/*
+===========================================================
+   Western Sydney University
+
+   Student Name:   Wai Chan
+     Student ID:   2053 8079
+        Contact:   20538079@student.westernsydney.edu.au  
+        Subject:   300693 Web Technologies
+     Assignment:   1 - Basic Website Construction
+        Due Dte:   3rd Sept 2021
+
+   © 2021 Wai Chan All Rights Reserved
+=========================================================== 
+*/
+
+#contactWrap {
+	color: white;
+	font-size: 20px;
+	max-width: 1920px;
+	min-width: 1200px;
+	height: 1080px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../media/wsu2.jpg");
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+#contactWrap:after {
+	content: "";
+	width: 800px;
+	height: 680px;
+	padding: 35px 20px;
+	background-color: black;
+	position:absolute;
+	z-index: 8500;
+	opacity: 0.65;
+}
+#contactBody {
+	position: relative;
+	text-align: center;
+	z-index: 8888;
+}
+#contactBody h3 {
+	font-weight: lighter;
+}
+#contactBody h3 a {
+	color: white;
+	text-decoration: none;
+}
+#contactBody img {
+	width: 100px;
+	border-radius: 40px;
+	/* z-index: 2; */
+}
+.contactIco {
+	color: rgb(205, 47, 121);
+}
+form {
+	margin-top: 25px;
+	height: 280px;
+	width: 800px;
+	opacity: 0.85;
+}
+form:hover, form:focus {
+	opacity: 1;
+}
+#name, #email {
+	width: 65%;
+	height: 30px;
+	border: 0;
+	padding: 10px;
+}
+#textArea {
+	width: 65%;
+	height: 100px;
+	border: 0;
+	padding: 10px;
+}
+#sendBtn {
+	font-size:larger;
+	font-weight: 400;
+	color: rgb(205, 47, 121);
+	margin-top: 10px;
+	padding: 10px;
+	background-color: white;
+	border: 0;
+	cursor: pointer;
+}
+#sendBtn:hover{
+	color:white;
+	background-color:  rgb(205, 47, 121);
+}

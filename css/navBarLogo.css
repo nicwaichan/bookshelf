@@ -1,0 +1,43 @@
+#navBarLogo {
+	/* width: 350px; */
+	display: inline-block;
+}
+#navBarLogo img {
+	border-radius: 8px;
+	width: 70px;
+	height: 70px;
+}
+#navBarLogo ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #e9dada;
+}
+#navBarLogo li {
+	float: left;
+	padding: 8px 6px 4px 8px;
+}
+#navBarLogo li:nth-child(2) a {
+	font-family: 'Paytone One', sans-serif;
+	font-size: 48px;
+	display: block;
+	color: rgba(158, 17, 197, 0.118);
+	text-align: center;
+	text-decoration: none;
+	/* animation: out 0.5s; */
+}
+#navBarLogo li:nth-child(2) a:hover {
+	color: rgb(235, 59, 135);
+	animation: in 0.5s;
+}
+@keyframes in {
+	0% { color:rgba(158, 17, 197, 0.118); }
+	100% { color:rgb(235, 59, 135); }
+}
+
+/* @keyframes out {
+0% { color:rgb(235, 59, 135); }
+100% { color:rgba(158, 17, 197, 0.118); }
+} */
+
+  

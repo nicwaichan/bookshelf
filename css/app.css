@@ -1,0 +1,80 @@
+/*
+===========================================================
+   Western Sydney University
+
+   Student Name:   Wai Chan
+     Student ID:   2053 8079
+        Contact:   20538079@student.westernsydney.edu.au  
+        Subject:   300693 Web Technologies
+     Assignment:   1 - Basic Website Construction
+        Due Dte:   3rd Sept 2021
+
+   © 2021 Wai Chan All Rights Reserved
+=========================================================== 
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(254, 251, 251, 0.886);
+	width: 100%;
+	margin: 0;
+	/* background-image: url("../media/bg-01.png");
+	background-repeat: repeat; */
+	background-color: white;
+}
+#greyOut {
+	display: none;
+}
+#mainWrap {
+	max-width: 1920px;
+	min-width: 1200px;	/* depends on how many items on top nav bar */ 
+	margin: auto;
+	height: auto;
+	background-color: rgb(255, 255, 255);
+}
+#mainWrap #indexHr {
+	border: 2px solid rgb(249, 112, 187);
+	margin: 40px 0 60px 0;
+}
+#mainWrap #indexH1 {
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	width: 420px;
+	position: relative;
+	top: 68px;
+	font-size: 50px;
+	color:rgb(82, 80, 80);
+}
+#navBarWrap {
+	max-width: 1920px;
+	min-width: 1200px;	/* depends on how many items on top nav bar */ 
+	height: 86px;
+	background-color: #e9dada;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	-webkit-touch-callout:	none; /* iOS Safari */
+    -webkit-user-select:	none; /* Safari */
+        -ms-user-select:	none; /* Internet Explorer/Edge */
+            user-select:	none; /* Non-prefixed ver. currently supported by Chrome, Edge, Opera and Firefox */
+	position: relative;
+	top: 0;
+	width:100vw;
+	z-index: 8000;
+}
+#contentWrap {
+	position: relative;
+	height: auto;
+	z-index: 7600;
+	background-color: rgb(247, 243, 243);
+}
+#mainWrap footer {
+	background-color: rgb(118, 117, 117);
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: 100;
+	color: rgb(215, 214, 214);
+	font-style: italic;
+	z-index: 1000;
+}

@@ -1,0 +1,144 @@
+/*
+===========================================================
+   Western Sydney University
+
+   Student Name:   Wai Chan
+     Student ID:   2053 8079
+        Contact:   20538079@student.westernsydney.edu.au  
+        Subject:   300693 Web Technologies
+     Assignment:   1 - Basic Website Construction
+        Due Dte:   3rd Sept 2021
+
+   © 2021 Wai Chan All Rights Reserved
+=========================================================== 
+*/
+body {
+	margin: 0;
+}
+#updateWrap {
+	max-width: 1920px;
+	min-width: 1200px;
+}
+#updateWrap #indexHr {
+	border: 2px solid rgb(249, 112, 187);
+	margin: 40px 0 60px 0;
+}
+#updateWrap #indexH1 {
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	position: relative;
+	top: 68px;
+	font-size: 50px;
+	color:rgb(82, 80, 80);
+}
+#updateWrap #updateMenuBar {
+	height: 56px;
+ 	text-align: center;
+	background-color: rgb(238, 194, 98);
+	padding: 17px 0 13px 0;
+}
+#updateMenuBar select, #updateMenuBar input {
+	height: 50px;
+	border: 4px solid white;
+	font-size: 16px;
+	color: rgb(33, 31, 31);
+	width: 300px;
+	padding: 0 10px;
+	margin: 0 15px;
+}
+#updateMenuBar input {
+	height:42px;
+}
+#updateMenuBar .searchList {
+	width: auto;
+	height: auto;
+	margin: 10px;
+}
+label  {
+	font-size: 20px;
+	cursor: pointer!important;
+}
+label:hover  {
+	font-size: larger;
+}
+select, select option {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 300px;
+}
+#ajaxResultWrap {
+	background-color:rgb(238, 194, 98);
+	position: relative;
+	z-index: 9900;
+}
+#bookCard form {
+	height:50px;
+	width: 1260px;
+	margin-left: 180px;
+}
+#bookCard form  input {
+	padding: 10px;
+	margin: 0 10px;
+	font-size: 18px;
+	border: 3px solid rgb(238, 194, 98);
+	border-radius: 0;
+}
+#bookCard form span{
+	font-size: 20px;
+}
+#bookCard form  .submitBtn {
+	cursor: pointer;
+	padding: 10px 20px;
+	margin-left: 140px;
+}
+.submitBtn:hover {
+	background-color: rgb(238, 194, 98);
+	color: white;
+}
+#bookCard form .rRating {
+	cursor: pointer;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.hide {
+	display: none;
+}
+.clear {
+	float: none;
+	clear: both;
+}
+.reviewerRating {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: center;
+	margin-right: 200px;
+	margin-top: -44px;
+
+}
+.reviewerRating > label {
+	float: right;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 22px;
+	font-size: 25px;
+	cursor: pointer;
+	color: #000;
+}
+.reviewerRating > label:hover,
+.reviewerRating > label:hover ~ label,
+.reviewerRating > input.radioBtn:checked ~ label {
+	color: transparent;
+}
+.reviewerRating > label:hover:before,
+.reviewerRating > label:hover ~ label:before,
+.reviewerRating > input.radioBtn:checked ~ label:before,
+.reviewerRating > input.radioBtn:checked ~ label:before {
+	content: "\2605";
+	position: absolute;
+	left: 0;
+	color: #ff8c00;
+}

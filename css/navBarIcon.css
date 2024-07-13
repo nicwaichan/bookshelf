@@ -1,0 +1,39 @@
+#navBarIcon {
+	float: right;
+}
+#navBarIcon ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#navBarIcon li {
+	float: left;
+	cursor: pointer;
+}
+#navBarIcon li a {
+	color: rgba(38, 37, 38, 0.687);
+	text-align: center;
+	padding: 6px 20px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 74px;
+}
+#navBarIcon li a:hover {
+	color:rgb(235, 59, 135);
+	animation: in 0.5s;
+}
+@keyframes in {
+	0% { color:rgba(38, 37, 38, 0.687); }
+	100% { color:rgb(235, 59, 135); }
+}
+#navBarIcon li:nth-child(1) .material-icons {
+	font-size: 35px;
+}
+#navBarIcon li:nth-child(2) .material-icons {
+	font-size: 30px;
+}
+#navBarIcon li:last-child {
+	display: none;
+}
